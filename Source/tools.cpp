@@ -1,8 +1,9 @@
-#include "tools.h"
 #include <random> //For random generation
 #include <ctime> //For random generation
 #include <sstream> //For istringstream
 #include <algorithm> //For copy() and assign()
+
+#include "tools.h"
 
 void TOOLS::Random(const int sigma, const int mi, std::vector<std::vector<double>>& numbers, const double denominator)
 {

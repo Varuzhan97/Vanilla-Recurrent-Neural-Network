@@ -1,8 +1,9 @@
-#include "rnn.h"
-#include "tools.h"
 #include <iostream>
 #include <iterator> //For back_inserter
 #include <cmath> //Tanh
+
+#include "rnn.h"
+#include "tools.h"
 
 RNN::Rnn::Rnn(const int inputSize, const int outputSize, const int hiddenSize) : m_hiddenSize(hiddenSize)
 {

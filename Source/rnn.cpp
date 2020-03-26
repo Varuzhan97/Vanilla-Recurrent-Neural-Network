@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iterator> //For back_inserter
-#include <cmath> //Tanh
+#include <cmath> //For tanh()
 
 #include "rnn.h"
 #include "tools.h"

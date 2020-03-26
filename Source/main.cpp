@@ -5,8 +5,6 @@
 #include "reader.h"
 #include "rnn.h"
 
-
-
 void process(const std::map<std::string, std::string>& items, const std::vector<std::string>& vocabulary, RNN::Rnn * rnn, double& loss, double& accuracy, bool backprop = true)
 {
   loss = 0.0;
